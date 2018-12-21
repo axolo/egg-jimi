@@ -26,7 +26,7 @@ Get `jimi api` `access token`. see
 ## Install
 
 ```bash
-$ npm i egg-jimi --save
+$ npm i @axolo/egg-jimi --save
 ```
 
 ## Usage

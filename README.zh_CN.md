@@ -21,6 +21,12 @@
 [download-url]: https://npmjs.org/package/egg-jimi
 
 
+## 安装
+
+```bash
+$ npm i @axolo/egg-jimi --save
+```
+
 ## 依赖说明
 
 ### 依赖的 egg 版本
