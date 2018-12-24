@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-jimi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "jimi api plugin for egg.js. see http://www.jimicloud.com/apiJimi.htm",
   "eggPlugin": {
     "name": "jimi"
@@ -10,7 +10,7 @@
     "eggPlugin",
     "egg-plugin",
     "jimi",
-    "jimi api"
+    "egg-jimi"
   ],
   "dependencies": {
     "axios": "^0.18.0",
@@ -41,7 +41,10 @@
     "autod": "autod"
   },
   "files": [
-    "config"
+    "app",
+    "config",
+    "app.js",
+    "lib"
   ],
   "ci": {
     "version": "8, 9"
