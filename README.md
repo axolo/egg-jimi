@@ -1,51 +1,21 @@
 # egg-jimi
 
-Get `jimi api` `access token`. see
-[jimi api docs](http://www.jimicloud.com/apiJimi.html)
+[几米API](http://www.jimicloud.com/apiJimi.html) Egg.js插件。
+具体使用场景请阅读几米API说明。
 
-## Install
-
-```bash
-$ npm i @axolo/egg-jimi --save
-```
-
-## Usage
+## 开启插件
 
 ```js
-// {app_root}/config/plugin.js
+// config/plugin.js
 exports.jimi = {
   enable: true,
   package: 'egg-jimi',
-};
-```
-
-## Configuration
-
-```js
-// {app_root}/config/config.default.js
-exports.jimi = {
-};
-```
-
-see [config/config.default.js](config/config.default.js) for more detail.
-
-## Example
-
-```js
-// http://localhost:7001/access-token
-const Controller = require('egg').Controller
-class AccessTokenController extends Controller {
-  async index() {
-    const { app } = this
-    ctx.body = await app.jimi.getAccessToken()
-  }
 }
-module.exports = AccessTokenController
 ```
 
-## Questions & Suggestions
+## 详细配置
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
 ## License
 

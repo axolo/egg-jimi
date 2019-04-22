@@ -1,21 +1,13 @@
-'use strict';
-/**
- * egg-jimi default config
- * @member Config#jimi
- * @property {String} SOME_KEY - some description
- */
 exports.jimi = {
-  name: "egg-jimi",
-  cache: "jimiAccessToken",
-  api: "http://open.aichezaixian.com/route/rest",
-  user_id: "",
-  user_pwd_md5: "",
-  app_key: "",
-  app_secret: "",
-  expires_in: "7200",
-  map_type: "GOOGLE",
-  app_key: "",
-  format: 'json',
-  sign_method: 'md5',
-  v: "1.0"
+  cache: "jimiAccessToken",                         // Egg.js令牌缓存键名（内存）
+  api: "http://open.aichezaixian.com/route/rest",   // 几米API地址
+  user_id: "",                                      // 几米API用户名，由 http://www.tuqiang123.com 提供
+  user_pwd_md5: "",                                 // 几米API用户密码MD5，由 http://www.tuqiang123.com 提供
+  app_key: "",                                      // 几米API开发者平台APP KEY，由开发者平台服务提供
+  app_secret: "",                                   // 几米API开发者平台APP SECRET，由开发者平台服务提供
+  expires_in: "7200",                               // 几米API令牌过期时间
+  map_type: "GOOGLE",                               // 几米API地图坐标系编码
+  format: 'json',                                   // 几米API地图格式
+  sign_method: 'md5',                               // 几米API地图签名方法
+  v: "1.0"                                          // 几米API版本
 }
