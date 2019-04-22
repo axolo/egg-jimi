@@ -3,13 +3,19 @@
 [几米API](http://www.jimicloud.com/apiJimi.html) Egg.js插件。
 具体使用场景请阅读几米API说明。
 
+## 安装插件
+
+```bash
+npm install @axolo/egg-jimi --save
+```
+
 ## 开启插件
 
 ```js
 // config/plugin.js
 exports.jimi = {
   enable: true,
-  package: 'egg-jimi',
+  package: '@axolo/egg-jimi',
 }
 ```
 
