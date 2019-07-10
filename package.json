@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-jimi",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "Jimi API plugin for Egg.js.",
   "eggPlugin": {
     "name": "jimi"
@@ -50,7 +50,8 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "app",
+    "lib"
   ],
   "ci": {
     "version": "8, 10"
