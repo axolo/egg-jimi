@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-jimi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Jimi API plugin for Egg.js.",
   "eggPlugin": {
     "name": "jimi"
@@ -16,22 +16,22 @@
     "jimi gps"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
-    "lodash": "^4.17.11",
+    "axios": "^0.19.0",
+    "lodash": "^4.17.13",
     "moment": "^2.24.0",
     "node-cache": "^4.2.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
-    "docdash": "^1.1.0",
+    "docdash": "^1.1.1",
     "egg": "^2.16.0",
     "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0",
-    "jsdoc": "^3.5.5"
+    "jsdoc": "^3.6.2"
   },
   "engines": {
     "node": ">=8.0.0"
